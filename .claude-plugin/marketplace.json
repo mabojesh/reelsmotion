@@ -1,6 +1,9 @@
 {
   "name": "mabojesh",
-  "owner": { "name": "م. محمد عبدالإله (@mabojesh)" },
+  "owner": {
+    "name": "م. محمد عبدالإله (@mabojesh)"
+  },
+  "description": "مهارات م. محمد عبدالإله (@mabojesh) لـ Claude · Arabic motion skills for Claude by @mabojesh",
   "plugins": [
     {
       "name": "reelsmotion",

@@ -1,8 +1,10 @@
 {
   "name": "reelsmotion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Arabic motion videos, reels, quizzes, carousels and covers in your own style, from a simple studio / ideas / final folder.",
-  "author": { "name": "م. محمد عبدالإله (@mabojesh)" },
+  "author": {
+    "name": "م. محمد عبدالإله (@mabojesh)"
+  },
   "homepage": "https://github.com/mabojesh/reelsmotion",
   "license": "SEE LICENSE IN LICENSE.md"
 }
