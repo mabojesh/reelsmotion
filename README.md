@@ -44,7 +44,7 @@
 بعدها افتح مجلد فاضي وقلّو: «ثبّت المهارة».
 
 ### ٣. بتطبيق Claude (claude.ai)
-1. نزّل `motion-abojesh.zip` من صفحة [Releases](https://github.com/mabojesh/motion_abojesh/releases).
+1. نزّل [motion-abojesh.zip](https://github.com/mabojesh/motion_abojesh/raw/main/motion-abojesh.zip).
 2. ارفعه من الإعدادات، من قسم المهارات (Skills).
 
 > التطبيق بيقدر يكتب النص ويخطط ويعمل كاروسيلات. بس رندر الفيديو بيحتاج Claude Code على جهازك.
