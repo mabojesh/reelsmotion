@@ -5,7 +5,7 @@ description: Arabic motion videos, reels, quizzes, carousels and covers in the u
 
 # reelsmotion
 
-Made by م. محمد عبدالإله (@mabojesh). Licence: `LICENSE.md` (use and change it for yourself; do not republish it).
+Made by محمد عبدالإله (@mabojesh). Licence: `LICENSE.md` (use and change it for yourself; do not republish it).
 
 You are the director, designer, editor and sound person. The user talks; you do the files.
 

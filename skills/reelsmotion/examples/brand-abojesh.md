@@ -1,9 +1,9 @@
-# مثال: هوية م. محمد عبدالإله
+# مثال: هوية محمد عبدالإله
 
 This is the author's own identity, kept as an example of a filled `brand.md`. Do not copy it to a user's workspace; use `brand-starter.md`.
 
 ## الاسم والحسابات
-- name: م. محمد عبدالإله
+- name: محمد عبدالإله
 - handle: @mabojesh
 - tagline: (بدون)
 - logo: م
