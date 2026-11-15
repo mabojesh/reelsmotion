@@ -1,4 +1,4 @@
-# motion_abojesh 🎬
+# reelsmotion 🎬
 
 مهارة لـ Claude بتعمل فيديوهات موشن عربية، وريلز، وكويزات، وكاروسيلات، وأغلفة يوتيوب، وكلها بأسلوبك إنت.
 إنت بتحكي، وClaude بيعمل الملفات كلها.
@@ -33,18 +33,18 @@
 افتح Claude Code (بالتطبيق أو بالتيرمنال) على مجلد فاضي لفيديوهاتك، والصق:
 
 ```
-ثبّت المهارة من https://github.com/mabojesh/motion_abojesh بهالمجلد، وسمّي المجلدات studio, ideas, final
+ثبّت المهارة من https://github.com/mabojesh/reelsmotion بهالمجلد، وسمّي المجلدات studio, ideas, final
 ```
 
 ### ٢. كإضافة (Plugin) بـ Claude Code
 ```
-/plugin marketplace add mabojesh/motion_abojesh
-/plugin install motion-abojesh@mabojesh
+/plugin marketplace add mabojesh/reelsmotion
+/plugin install reelsmotion@mabojesh
 ```
 بعدها افتح مجلد فاضي وقلّو: «ثبّت المهارة».
 
 ### ٣. بتطبيق Claude (claude.ai)
-1. نزّل [motion-abojesh.zip](https://github.com/mabojesh/motion_abojesh/raw/main/motion-abojesh.zip).
+1. نزّل [reelsmotion.zip](https://github.com/mabojesh/reelsmotion/raw/main/reelsmotion.zip).
 2. ارفعه من الإعدادات، من قسم المهارات (Skills).
 
 > التطبيق بيقدر يكتب النص ويخطط ويعمل كاروسيلات. بس رندر الفيديو بيحتاج Claude Code على جهازك.

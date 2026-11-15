@@ -1,4 +1,4 @@
-"""motion_abojesh workspace setup.
+"""reelsmotion workspace setup.
 
   python setup.py --check                          what is installed (changes nothing)
   python setup.py --folder "<path>" [--install-skill]   build the workspace in <path>
@@ -15,8 +15,8 @@ except Exception:
     pass
 
 SKILL = Path(__file__).resolve().parent.parent
-NAME = "motion-abojesh"
-MARK_A, MARK_B = "<!-- motion-abojesh:start -->", "<!-- motion-abojesh:end -->"
+NAME = "reelsmotion"
+MARK_A, MARK_B = "<!-- reelsmotion:start -->", "<!-- reelsmotion:end -->"
 
 
 def run(cmd):
@@ -66,8 +66,8 @@ def check():
 
 
 CLAUDE_SECTION = f"""{MARK_A}
-## motion_abojesh (read in every chat)
-This folder is a video workspace for the `motion-abojesh` skill (in `.claude/skills/motion-abojesh/`, keep it here only).
+## reelsmotion (read in every chat)
+This folder is a video workspace for the `reelsmotion` skill (in `.claude/skills/reelsmotion/`, keep it here only).
 - The user only uses `studio/` (their clips and voice), `ideas/` (what they like, one sub-folder per topic, their identity in `ideas/brand/`) and `final/` (finished work).
 - Never ask them to create, move, rename or open files. Do it and say so in one line.
 - Use the skill for anything about videos, reels, carousels, covers or «كمّل».

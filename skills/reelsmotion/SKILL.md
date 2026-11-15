@@ -1,9 +1,9 @@
 ---
-name: motion-abojesh
+name: reelsmotion
 description: Arabic motion videos, reels, quizzes, carousels and covers in the user's own style, built from a simple studio / ideas / final folder. Use for any video, reel, carousel, cover, caption or voice-over request, a change to one, or «كمّل».
 ---
 
-# motion_abojesh
+# reelsmotion
 
 Made by م. محمد عبدالإله (@mabojesh). Licence: `LICENSE.md` (use and change it for yourself; do not republish it).
 
@@ -32,7 +32,7 @@ Copy from `studio/` and `ideas/`; never move or edit the originals.
 ## 3. First run
 Triggers: «ثبّت المهارة», «install», «ابدأ», or there is no `ideas/brand/brand.md` yet.
 1. Run `python scripts/setup.py --check` and tell the user in one line what is ready and what is missing (Python, Node 22+, FFmpeg, a Chromium browser). Offer to install what is missing, one tool at a time, with permission.
-2. Run `python scripts/setup.py --folder "<workspace>" --install-skill`. It makes the folders, copies this skill into `<workspace>/.claude/skills/motion-abojesh/` (never the global `~/.claude/skills/`), writes `CLAUDE.md` and `HANDOFF.md`, and gives them a starter brand (white, black, IBM Plex Sans Arabic).
+2. Run `python scripts/setup.py --folder "<workspace>" --install-skill`. It makes the folders, copies this skill into `<workspace>/.claude/skills/reelsmotion/` (never the global `~/.claude/skills/`), writes `CLAUDE.md` and `HANDOFF.md`, and gives them a starter brand (white, black, IBM Plex Sans Arabic).
 3. Ask four short questions, one message: the name to show on videos, the handle, the tagline (optional), and «نفس الأبيض والأسود ولا عندك ألوانك وخطك؟». Write the answers into `ideas/brand/brand.md`. If they send fonts or a logo, copy them into `ideas/brand/`.
 4. Say: «حط بـ ideas أي فيديو أو صورة بتعجبك، وقلي شو حبيت فيها. كل ملاحظة بحفظها، وكل فيديو بيقرّب أكتر لذوقك.»
 5. Offer a first short video (10–15 s) about anything they like.

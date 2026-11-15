@@ -3,7 +3,7 @@
   "owner": { "name": "م. محمد عبدالإله (@mabojesh)" },
   "plugins": [
     {
-      "name": "motion-abojesh",
+      "name": "reelsmotion",
       "source": "./",
       "description": "Arabic motion videos, reels, quizzes, carousels and covers in your own style."
     }

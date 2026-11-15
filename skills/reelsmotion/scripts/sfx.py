@@ -220,6 +220,6 @@ if __name__ == "__main__":
     if a.no_master:
         write(out, mix)
     else:
-        tmp = os.path.join(tempfile.gettempdir(), f"motion-abojesh-raw-{os.getpid()}.wav")
+        tmp = os.path.join(tempfile.gettempdir(), f"reelsmotion-raw-{os.getpid()}.wav")
         write(tmp, mix); master(tmp, out); os.remove(tmp)
     print("ok", out, f"{total:.1f}s", len(cues), "cues", "+ music" if a.music else "", "+ voice" if voice is not None else "")
