@@ -1,0 +1,11 @@
+{
+  "name": "mabojesh",
+  "owner": { "name": "م. محمد عبدالإله (@mabojesh)" },
+  "plugins": [
+    {
+      "name": "motion-abojesh",
+      "source": "./",
+      "description": "Arabic motion videos, reels, quizzes, carousels and covers in your own style."
+    }
+  ]
+}
