@@ -5,7 +5,7 @@ This is the author's own identity, kept as an example of a filled `brand.md`. Do
 ## الاسم والحسابات
 - name: م. محمد عبدالإله
 - handle: @mabojesh
-- tagline: تعو نحكي شوي
+- tagline: (بدون)
 - logo: م
 
 ## الألوان
