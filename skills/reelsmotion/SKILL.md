@@ -41,7 +41,7 @@ Triggers: «ثبّت المهارة», «install», «ابدأ», or there is no
 1. **Learn first.** Read `HANDOFF.md`, `ideas/brand/brand.md`, the matching topic folder in `ideas/` when they say «استخدم ideas», and the project's `PROGRESS.md` if it exists. Copy techniques from references, never their footage or audio.
 2. **Plan in one message.** Three hook options (recommend one), the script as a short table (time | on screen | sound), the format and length. If they said «اعمله كامل» or similar, skip asking and build.
 3. **Make the project:** `python scripts/new_video.py --title "<title>" --format reel` (also `square`, `wide`, `still`). It copies the template and the brand fonts and colours.
-4. **Build** the composition (`guides/hyperframes.md`), Arabic rules always (`guides/arabic.md`), sound (`guides/sound.md`), format notes (`guides/formats.md`), hooks (`guides/hooks.md`).
+4. **Build** the composition (`guides/hyperframes.md`), Arabic rules always (`guides/arabic.md`), sound (`guides/sound.md`), format notes (`guides/formats.md`), hooks (`guides/hooks.md`), and the house looks: full-bleed photo blurred to white, cover, end card (`guides/looks.md`).
 5. **Check yourself** before showing anything: `npx --yes hyperframes@0.8.225 check`, snapshots at the hook (0 s, 1.5 s) and key moments, look at them, fix silently.
 6. **Render and show** the complete video with sound. Summarise it in five short lines at most.
 7. **Changes:** fix only what they asked; keep the approved parts.
@@ -57,7 +57,14 @@ Triggers: «ثبّت المهارة», «install», «ابدأ», or there is no
 - **«كمّل» / continue:** three lines (the goal, where it stands, the next step), then wait for a go.
 - **When something changed** (a file, a decision, a video): merge the change into `HANDOFF.md` (never overwrite it) and the project's `PROGRESS.md`. A general preference they state («دايماً بدي…») goes into the «ذوقي» section of `ideas/brand/brand.md`. End the reply with `📌 حفظت وين وقفنا`. When nothing changed: `📌 ما فيه جديد للحفظ`.
 
-## 7. Honesty
+## 7. In the Claude app (chat, no terminal)
+When there is no folder or terminal (claude.ai chat or the phone app), keep the same style and do what fits the chat:
+- the plan, hooks, the script table, the voice script with vowel marks;
+- captions, post text, hashtags, the comment keyword and the DM text;
+- covers and carousel pages as HTML or images (`guides/looks.md`, `guides/formats.md`), and one-scene previews when the chat can run code.
+Say plainly that the full video render needs Claude Code on their computer, and write the files so the next Claude Code chat can pick them up.
+
+## 8. Honesty
 - Never promise views or reach. Say what helps (hook, watch time, comments, posting time) and that nothing is guaranteed.
 - Say what you checked and what you did not.
 - Credit any CC BY asset in a `<title> credits.txt` beside the video in `final/`.

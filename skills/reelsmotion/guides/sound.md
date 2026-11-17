@@ -25,6 +25,9 @@ Sounds: `boom`, `slam`, `whoosh`, `pop`, `tick`, `beep`, `buzzer`, `ding`, `shim
 The script masters to about −14 LUFS, true peak under −1 dB (good for Reels, Shorts and TikTok).
 
 ## Mixing rules
+- **A cue's `db` is relative.** `sfx.py mix` scales the whole result to one peak, so lowering every cue changes nothing. To make the effects quieter, lower the whole stream: `--gain -18` with `--no-master`, or `volume=-18dB` on the effects input when you mix in FFmpeg yourself.
+- **Effects stay light under a voice.** Measure 100 ms RMS: effect hits sit about 7 dB under the voice's median. Listeners complain fast when a whoosh covers a word. Level a generated voice with a gentle compressor (`acompressor=threshold=-26dB:ratio=3:makeup=6dB,alimiter=limit=0.89`) instead of pushing effects down forever.
+- Under the voice, the singer's or clip's own audio sits about 20 dB down; let it come up only where she or he is the point (a short solo between lines).
 - Voice first: music sits about 18 dB under the voice; effects never cover a word.
 - Hits land on the exact frame of the motion.
 - Phones have small speakers: low booms need a click or a pop on top so they are heard.

@@ -184,6 +184,7 @@ if __name__ == "__main__":
     ap.add_argument("--duration", type=float); ap.add_argument("--music", type=float)
     ap.add_argument("--duck", default=""); ap.add_argument("--voice")
     ap.add_argument("--seed", type=int, default=7); ap.add_argument("--no-master", action="store_true")
+    ap.add_argument("--gain", type=float, default=0.0, help="dB on the whole output, after it is normalised (use with --no-master to set the effects level under a voice mixed elsewhere)")
     a = ap.parse_args()
     rng = np.random.default_rng(a.seed)
 
@@ -217,6 +218,7 @@ if __name__ == "__main__":
         pk = max(np.max(np.abs(sfx + bed)), 1e-9)
         mix = (sfx * sfx_g[:, None] + bed * bed_g[:, None]) / pk * 10 ** (-12 / 20) + v / max(np.max(np.abs(v)), 1e-9) * .9
     mix = mix / max(np.max(np.abs(mix)), 1e-9) * .9
+    mix *= 10 ** (a.gain / 20)   # the normalising above makes cue "db" relative only; --gain sets the real level
     if a.no_master:
         write(out, mix)
     else:

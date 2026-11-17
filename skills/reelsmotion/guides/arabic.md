@@ -8,6 +8,8 @@ Arabic letters join. Anything that splits a word into letters breaks it. These r
 - Put `dir="rtl"` on `<html>` (HyperFrames layouts break). Put it on each row of words instead.
 - Clip the dots or the tails: no `overflow: hidden` tight on a line, and give `line-height` at least 1.3 (1.45 for body text).
 - Use fake bold or fake italic. Load the real weight.
+- Outline Arabic with `-webkit-text-stroke`: every join shows a seam. For a second-level word use a solid grey (#9a9a9a) instead.
+- Put emoji inside a video or cover (they are the platform's artwork). Draw simple black-and-white line icons instead; emoji are fine in captions.
 
 ## Always
 - Animate **whole words** or whole lines: fade, rise, scale, blur-in, a highlight box behind the word.
@@ -24,6 +26,10 @@ Arabic letters join. Anything that splits a word into letters breaks it. These r
 | Statement / main line | 80–90 px |
 | Caption | 60–70 px |
 | Small note | 40–46 px, Regular, grey |
+
+## Generated Arabic voice (TTS)
+- Voices often misread Arabic words (for example «بريد» → «برايد»). Write the voice script with vowel marks on hard words (`plan/vo-tashkeel.txt`), keep the screen captions without vowel marks, and check every word of the take with a word-timed transcript before you build on it.
+- When one word is wrong in an otherwise good take, cut the same word from elsewhere in the take and splice it in (short fades) instead of paying for a new take.
 
 ## Check before showing
 Snapshot every scene. Look for: broken joins, missing dots, words in the wrong order, lines touching the edge, text under the app buttons.
